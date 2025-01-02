@@ -34,7 +34,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 8rem 13% 2rem;
 }
 
 .header {
@@ -292,6 +292,7 @@ span {
     align-items: center;
     gap: 10rem;
     background: var(--bg-color);
+    padding: 0 18rem 0 20rem;
   
 
 }
@@ -512,10 +513,11 @@ flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 9%;
+    padding: 2rem 15%;
     background: var(--second-bg-color);
     
 }
+
 
 .footer-text p {
     font-size: 1.6rem;
@@ -523,6 +525,7 @@ flex-wrap: wrap;
     cursor: pointer;
     text-align: center;
     animation: DesignColor 5s ease-in-out infinite;
+
 }
 
 .footer-text p:hover {
@@ -713,7 +716,7 @@ flex-wrap: wrap;
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        padding: 10rem 12% 2rem;
     }
 
     .services {
@@ -721,6 +724,12 @@ flex-wrap: wrap;
     }
     .home {
         padding-top: 12rem;
+    }
+    .about-content {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
     .portfolio {
         padding-top: 4rem;
@@ -808,7 +817,7 @@ flex-wrap: wrap;
               
     }
     .about-img {
-        width: 40vw;
+        width: 55vw;
         margin-top: -4rem;
     }
 
@@ -840,17 +849,22 @@ flex-wrap: wrap;
      
         background-size: 85%;
         left: 0;
-      
-    
+          
     } 
+
+    .home-content {
+     
+        text-align: center;
+    }
+   
     .about 
     {
        
-        padding: 80px 40px;
+        padding: 80px 70px;
     }
     .about-content {
         padding-top: 6rem;
-    
+       
               
     }
     .portfolio-container {
@@ -877,6 +891,7 @@ flex-wrap: wrap;
     
     } 
    
+  
     .about-img {
         width: auto;
         justify-content: center;

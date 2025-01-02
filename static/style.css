@@ -870,6 +870,9 @@ flex-wrap: wrap;
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+    .contact form {
+        max-width: 40rem;
+      }
 }
 
 @media (max-width: 450px) {
@@ -908,7 +911,9 @@ flex-wrap: wrap;
         padding-top: 8rem;
       
     }
-
+    .contact form {
+        max-width: 35rem;
+      }
     .contact form .input-box input {
         width: 100%;
     }

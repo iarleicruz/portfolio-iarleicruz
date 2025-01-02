@@ -203,7 +203,9 @@ span {
     animation: SlideTop 3s, pulse 3s infinite;
     border: 1px solid #0ef;
     cursor: pointer;
-    transition: all .4s ease
+    transition: all .4s ease;
+    margin-top: 20px;
+
     
   }
   .btn-pulse:hover,
@@ -442,7 +444,7 @@ span {
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
-    margin-bottom: 3rem;
+  
 }
 
 .contact form .input-box {
@@ -913,6 +915,7 @@ flex-wrap: wrap;
     }
     .contact form {
         max-width: 35rem;
+     
       }
     .contact form .input-box input {
         width: 100%;

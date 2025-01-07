@@ -91,14 +91,12 @@ section {
     content: '';
     background: url('/static/img/eu.png') no-repeat;
     position: relative;
-    background-size: 85%;
-    left: 100px;
+    background-size: 65%;
+    left: 20rem;
     width: 100%;
-    height: 85%;
-    background-color: #000000;
-    zoom: 1;
+    height: 65%;
     opacity: .2;
-    top: calc(8%);
+ 
 
 } 
 

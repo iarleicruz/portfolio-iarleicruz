@@ -96,6 +96,7 @@ section {
     width: 100%;
     height: 65%;
     opacity: .3;
+    top: 122px;
  
 
 } 
@@ -305,7 +306,7 @@ span {
 
 .about-img img {
     width: 25rem;
-    border-radius: 1rem;
+    border-radius: 50%;
     transition: 1s ease-in-out;
   
     box-shadow: -5px 3px 0px cadetblue;

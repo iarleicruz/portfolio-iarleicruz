@@ -11,7 +11,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
- 
+
 }
 :root {
     --bg-color: #1f242d;
@@ -25,7 +25,7 @@
         overflow-x: hidden;
     }
 
- 
+
 body {
     background: var(--bgcolor);
     color:var(--text-color);
@@ -89,21 +89,21 @@ section {
 /* ============ section Home ============= */
  section.home::after {
     content: '';
-    background: url('/static/img/eu.png') no-repeat;
-    position: relative;
-    background-size: 65%;
-    left: 20rem;
-    width: 100%;
+    border-right: 5px solid  #0ef;
+    border-bottom: 5px solid #0ef;
+    border-radius: 80px;
+    box-shadow: 15px 1px 10px rgb(46, 52, 52);
+    background: #000000 url('/static/img/euTeste.png') no-repeat;
+    background-size: 95%;
+    width: 30%;
     height: 65%;
-    opacity: .3;
-    top: 122px;
- 
+    background-position-x: right;
 
-} 
+}
 
 
 .home {
- 
+
     /* background: rgba(0,0,0, .2) linear-gradient(rgba(0,0,0,.7)20%,rgba(0,0,0,.3)70%); */
     background-color: #000000;
     background-position: right bottom;
@@ -117,10 +117,10 @@ section {
     align-items: center;
     padding: 70px 12% 0;
    /* animation: Background 20s ease infinite;
-    
-     transition: animation 9s; 
+
+     transition: animation 9s;
     */
-    
+
 }
 
 
@@ -154,11 +154,11 @@ span {
     font-weight: 700;
     margin: -3px 0;
     opacity: 0;
-    animation: SlideRight 1s ease forwards, DesignColor 5s ease-in-out infinite; 
+    animation: SlideRight 1s ease forwards, DesignColor 5s ease-in-out infinite;
    animation-delay: 1s;
    color: var(--main-color);
    text-shadow: 3px 2px 0px gray;
-    
+
 }
 
 
@@ -169,7 +169,7 @@ span {
     animation: SlideLeft 1s ease forwards;
     animation-delay: .7s;
     line-height: 2.8rem;
-    
+
     color: var(--text-color);
 }
 
@@ -187,7 +187,7 @@ span {
     opacity: 0;
     animation: SlideTop 1s ease forwards;
     animation-delay: 2s;
-   
+
 }
   .btn-pulse {
     display: inline-block;
@@ -206,7 +206,7 @@ span {
     transition: all .4s ease;
     margin-top: 20px;
 
-    
+
   }
   .btn-pulse:hover,
   .footer-iconTop a i:hover  {
@@ -247,8 +247,8 @@ span {
     transition: 0.5s ease;
     padding: -12px -28px;
     border-radius: 40px;
-    
-   
+
+
 }
 
 .button-hover:hover::before {
@@ -257,7 +257,7 @@ span {
     border-radius: 50px;
     box-shadow: 0 0 10px #1f242d;
 
-    
+
 }
 
 .button-hover::after {
@@ -272,14 +272,14 @@ span {
     z-index: -1;
     border-radius: 40px;
     box-shadow: 0 0 10px #1f242d;
-    
-    
+
+
 }
 
 .button-hover:hover::after {
     height: 100%;
     transition-delay: 0.5s;
-    
+
 }
 .button-hover:hover {
     color:var(--main-color);
@@ -295,22 +295,22 @@ span {
     gap: 10rem;
     background: var(--bg-color);
     padding: 0 18rem 0 20rem;
-  
+
 
 }
 
 .about-img {
     width: 35vw;
-   
+
 }
 
 .about-img img {
     width: 25rem;
     border-radius: 50%;
     transition: 1s ease-in-out;
-  
+
     box-shadow: -5px 3px 0px cadetblue;
-  
+
 }
 .about-img img:hover{
     transform: scale(1.1);
@@ -336,7 +336,7 @@ span {
     margin: 0 0 3rem;
     line-height: 3.5rem;
 
-    
+
 }
 
 /* =================== section portfolio =========================*/
@@ -344,7 +344,7 @@ span {
 .portfolio {
 
     background: var(--second-bg-color);
-    
+
 }
 
 .portfolio h2 {
@@ -444,7 +444,7 @@ span {
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
-  
+
 }
 
 .contact form .input-box {
@@ -475,17 +475,17 @@ flex-wrap: wrap;
 .btn {
     margin-top: 2rem;
     cursor: pointer;
-    
-    
+
+
 }
 
 .social-media.social-media-contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
- 
+
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -503,7 +503,7 @@ flex-wrap: wrap;
     opacity: 0;
     animation: SlideLeft 1s ease forwards, DesignColorNew 3s infinite;
     animation-delay: calc(.2s * var(--i));
-   
+
 }
 
 
@@ -517,7 +517,7 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 2rem 15%;
     background: var(--second-bg-color);
-    
+
 }
 
 
@@ -532,7 +532,7 @@ flex-wrap: wrap;
 
 .footer-text p:hover {
     color: var(--main-color);
-    
+
 }
 .footer-iconTop a {
     display: inline-flex;
@@ -544,8 +544,8 @@ flex-wrap: wrap;
     border-radius: .8rem;
     transition: .5s ease;
     margin: 10px;
-   
-    
+
+
 }
 
 .footer-iconTop a:hover {
@@ -580,48 +580,48 @@ flex-wrap: wrap;
     50% {
         background: rgb(12, 12, 12);
     }
-  
+
     75% {
-        
+
         background: rgb(18, 18, 18);
-     
+
        }
 
     100% {
         background: rgb(29, 28, 28);
-       
+
     }
 }
 
 @keyframes DesignColor {
     0% {
         color: var(--text-color);
-        
+
     }
 
-  
+
     50% {
         color: var(--main-color);
-       
+
     }
     100% {
         color:  var(--text-color);
-        
-       
+
+
     }
 }
 
 @keyframes DesignColorNew {
     0% {
      background: transparent;
-    
+
     }
- 
+
     50% {
         background: transparent;
         box-shadow: 0 0 20px var(--main-color);
         }
-    
+
     100% {
         background: var(--main-color);
         color: #1f242d;
@@ -696,7 +696,7 @@ flex-wrap: wrap;
          opacity: 1; */
          box-shadow: 0 0 5px var(--text-color);
      }
-     
+
      To {
          /* transform: scale(2);
          opacity: .6; */
@@ -713,7 +713,7 @@ flex-wrap: wrap;
 
 @media (max-width: 991px) {
     .header {
-       
+
         padding: 2rem 11.5%;
     }
 
@@ -775,9 +775,9 @@ flex-wrap: wrap;
         margin: 3rem 0;
     }
 
-  
+
     section.home::after {
-        
+
         position: absolute;
         background-position: bottom;
         background-size: 67%;
@@ -786,14 +786,14 @@ flex-wrap: wrap;
         left: 0;
         background-blend-mode: luminosity;
         z-index: -1;
-    
-    } 
- 
+
+    }
+
     /* .home-content{
-        
+
         margin-top: 10rem;
     } */
-  
+
 
     .home-content h1    {
         font-size: 4.5rem;
@@ -804,19 +804,19 @@ flex-wrap: wrap;
         line-height: 2;
         margin-bottom: -1rem;
     }
-   
+
     .home-img img {
-        display: none; 
-       
+        display: none;
+
     }
     .about {
-        
+
         flex-direction: column-reverse;
         padding-top: 10px;
     }
     .about-content{
         padding-top: 4rem;
-              
+
     }
     .about-img {
         width: 55vw;
@@ -828,7 +828,7 @@ flex-wrap: wrap;
     }
     .portfolio {
         padding-top: 8rem;
-      
+
     }
 
     .portfolio-container {
@@ -836,39 +836,39 @@ flex-wrap: wrap;
         margin: 15px;
     }
     .heading {
-    
+
         font-size: 3.5rem;
-      
+
     }
 }
 
 @media (max-width: 617px){
     .home {
-      
+
         background-position-y: 115px;
         background-size: 150%;
     }
     section.home::after {
-     
+
         background-size: 85%;
         left: 0;
-          
-    } 
+
+    }
 
     .home-content {
-     
+
         text-align: center;
     }
-   
-    .about 
+
+    .about
     {
-       
+
         padding: 80px 70px;
     }
     .about-content {
         padding-top: 6rem;
-       
-              
+
+
     }
     .portfolio-container {
         grid-template-columns: 1fr;
@@ -883,40 +883,40 @@ flex-wrap: wrap;
         font-size: 50%;
     }
     .home {
-   
+
         background-position-y: 110px;
         background-size: 220%;
 
     }
     section.home::after {
-     
+
         background-size: 145%;
         inset: 0px;
         left: 0;
-      
-    
-    } 
-   
-  
+
+
+    }
+
+
     .about-img {
         width: auto;
         justify-content: center;
         align-items: center;
-     
+
     }
-    
+
     .about-img img {
         width: 50vw;
-       
-     
+
+
     }
     .portfolio {
         padding-top: 8rem;
-      
+
     }
     .contact form {
         max-width: 35rem;
-     
+
       }
     .contact form .input-box input {
         width: 100%;
@@ -924,15 +924,15 @@ flex-wrap: wrap;
 
 }
 
- 
+
 
 @media (max-width: 365px) {
 
     .home {
-       
+
         background-position-y: 211px;
         background-size: 130%;
-    
+
         }
         section.home::after {
             background-size: 120%;
@@ -949,25 +949,25 @@ flex-wrap: wrap;
             margin-bottom: 2rem;
         }
         .btn {
-            margin: 0; 
+            margin: 0;
             cursor: pointer;
         }
     .about-content {
         padding-top: 5rem;
-              
+
     }
-   
+
     .about-img img {
         width: 60vw;
 
     }
     .portfolio {
         padding-top: 8rem;
-       
+
     }
     .contact h2 {
         margin-top: 4rem;
-       
+
     }
 
       .footer{

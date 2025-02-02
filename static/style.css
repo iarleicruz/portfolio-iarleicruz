@@ -42,7 +42,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 11.5%;
+    padding: 5px 11.5%;
     background: var(--second-bg-color);
     display: flex;
     justify-content: space-between;
@@ -56,7 +56,7 @@ section {
 
 
 .logo {
-    width: 80px;
+    width: 50px;
     border: 1px solid black;
     border-radius: 50%;
     cursor: pointer;
@@ -86,58 +86,35 @@ section {
     display: none;
 }
 
-/* ============ section Home ============= */
- /* section.home::after {
-    content: '';
-    border-right: 5px solid  #0ef;
-    border-bottom: 5px solid #0ef;
-    border-radius: 80px;
-    box-shadow: 15px 1px 10px rgb(46, 52, 52);
-    background: #000000 url('/static/img/euTeste.png') no-repeat;
-    background-size: 95%;
-    width: 30%;
-    height: 65%;
-    background-position-x: right;
-
-} */
 
 
 
 .home {
-
-    /* background: rgba(0,0,0, .2) linear-gradient(rgba(0,0,0,.7)20%,rgba(0,0,0,.3)70%); */
-    background-color: #000000;
-    /* background-position: right bottom;
-    background-size: 55%;
-    backdrop-filter: blur(10px);
-    position: relative; */
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    /* padding: 70px 12% 0; */
-   /* animation: Background 20s ease infinite;
-
-     transition: animation 9s;
-    */
+  
+    background: var(--second-bg-color) ;
+  
+  
+ 
 
 }
 
 
 .home-content {
     /* max-width: 600px; */
-    width: 100%;
-    margin-left: 30px;
+    width: 75%;
+    margin: auto;
+    border-right: 1px solid #0ef;
+
 }
 
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
-    opacity: 0;
+    
     animation: SlideBottom 1s ease forwards;
     animation-delay: .7s;
     color: var(--text-color);
+    margin-top: 50px;
 }
 
 .home-content h3:nth-of-type(2){
@@ -166,11 +143,11 @@ span {
 
 .home-content p {
     margin: 30px 30px 30px 0;
-    font-size: 16px;
-    opacity: 0;
+    font-size: 2.6rem;
+    
     animation: SlideLeft 1s ease forwards;
     animation-delay: .7s;
-    line-height: 2.8rem;
+    line-height: 3.5 rem;
 
     color: var(--text-color);
 }

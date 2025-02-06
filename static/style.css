@@ -91,19 +91,21 @@ section {
 
 .home {
   
-    background: var(--second-bg-color) ;
+    background: var(--second-bg-color) url('./img/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
   
-  
- 
 
 }
 
 
 .home-content {
     /* max-width: 600px; */
-    width: 75%;
+    /* width: 75%; */
     margin: auto;
-    border-right: 1px solid #0ef;
+    /* border-right: 1px solid #0ef; */
+    /* background: url('./img/background.png'); */
+  
 
 }
 
@@ -179,7 +181,7 @@ span {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
-    animation: SlideTop 3s, pulse 3s infinite;
+    /* animation: SlideTop 3s, pulse 3s infinite; */
     border: 1px solid #0ef;
     cursor: pointer;
     transition: all .4s ease;
@@ -490,7 +492,7 @@ flex-wrap: wrap;
     align-items: center;
     width: 40px;
     height: 40px;
-    background: transparent;
+    /* background: transparent; */
     border: 2px solid var(--main-color);
     border-radius: 50px;
     font-size: 20px;
@@ -498,12 +500,17 @@ flex-wrap: wrap;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
-    opacity: 0;
-    animation: SlideLeft 1s ease forwards, DesignColorNew 3s infinite;
+    opacity: 1;
+    /* opacity: 0; */
+    /* animation: SlideLeft 1s ease forwards, DesignColorNew 3s infinite; */
     animation-delay: calc(.2s * var(--i));
 
 }
 
+.social-media a:hover {
+    background: #0ef;
+    color: black;
+}
 
 
 /* ==================  Footer ============= */
@@ -867,8 +874,8 @@ flex-wrap: wrap;
 @media (max-width: 617px){
     .home {
 
-        background-position-y: 115px;
-        background-size: 150%;
+      
+        background-size: 80%;
     }
     /* section.home::after {
         visibility: hidden;
@@ -908,18 +915,10 @@ flex-wrap: wrap;
     }
     .home {
 
-        background-position-y: 110px;
-        background-size: 220%;
-
+      
+        background-size: 80%;
     }
-    /* section.home::after {
-
-        background-size: 145%;
-        inset: 0px;
-        left: 0;
-
-
-    } */
+  
 
 
     .about-img {
@@ -954,15 +953,10 @@ flex-wrap: wrap;
 
     .home {
 
-        background-position-y: 211px;
-        background-size: 130%;
-
-        }
-        /* section.home::after {
-            background-size: 120%;
-            inset: 0px;
-            left: 0;
-        } */
+      
+        background-size: 80%;
+    }
+  
         .home-content h1 {
             font-size: 4rem;
             margin: 2rem 0 2rem;

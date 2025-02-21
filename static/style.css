@@ -941,18 +941,6 @@ flex-wrap: wrap;
     }
 
 
-    .about-img {
-        width: auto;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .about-img img {
-        width: 50vw;
-
-
-    }
     .portfolio {
         padding-top: 8rem;
 

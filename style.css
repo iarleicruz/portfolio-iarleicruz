@@ -94,10 +94,6 @@ section {
     background: var(--second-bg-color) url('./img/background.png');
     background-position: center;
     background-repeat: no-repeat;
-<<<<<<< HEAD
-
-=======
->>>>>>> 2544188da99c4ed6df98fb89166c0f8a21e4ff43
   
 
 }
@@ -113,7 +109,7 @@ section {
     font-size: 3.2rem;
     font-weight: 700;
     
-    /* animation: SlideBottom 1s ease forwards; */
+    animation: SlideBottom 1s ease forwards;
     animation-delay: .7s;
     color: var(--text-color);
     margin-top: 50px;
@@ -134,8 +130,8 @@ span {
     font-size: 5.6rem;
     font-weight: 700;
     margin: -3px 0;
-    opacity: 1;
-    /* animation: SlideRight 1s ease forwards, DesignColor 5s ease-in-out infinite; */
+    opacity: 0;
+    animation: SlideRight 1s ease forwards, DesignColor 5s ease-in-out infinite;
    animation-delay: 1s;
    color: var(--main-color);
    text-shadow: 3px 2px 0px gray;
@@ -146,7 +142,7 @@ span {
 .home-content p {
     margin: 30px 30px 30px 0;
     font-size: 2.6rem;
-    max-width: 570px;
+    
     animation: SlideLeft 1s ease forwards;
     animation-delay: .7s;
     line-height: 3.5 rem;
@@ -735,12 +731,8 @@ flex-wrap: wrap;
     .home {
         padding-top: 12rem;
         width: 100%;
-        height: 100vh;
     }
 
-    .home-content p {
-        padding-bottom: 30px;
-    }
     .home-content h3 {
         font-size: 2.2rem;
     }
@@ -761,15 +753,6 @@ flex-wrap: wrap;
         display: flex;
         flex-direction: column;
     }
-
-    .about-content h2 {
-        margin: 0 0 5rem 0;
-    }
-
-    .about-img {
-        display: none;
-      }
-  
     .portfolio {
         padding-top: 4rem;
         padding-bottom: 7rem;
@@ -852,26 +835,15 @@ flex-wrap: wrap;
     
     .about-content h2 {
        
-<<<<<<< HEAD
-    margin: 5rem 0 5rem 0;
-=======
     margin: 0 0 8rem 0;
     }
     .about-content p {
        
         text-align: center;
->>>>>>> 2544188da99c4ed6df98fb89166c0f8a21e4ff43
     }
-    .about-content p {
-       
-        text-align: center;
-        padding-bottom: 30px;
-        width: 350px;
-    }
-
-  
     .about-img {
-      display: none;
+        width: 55vw;
+        margin-top: -4rem;
     }
 
     .services h2 {

@@ -848,20 +848,15 @@ flex-wrap: wrap;
 
         flex-direction: column-reverse;
         padding-top: 10px;
+        height: 100vh;
     }
     
     .about-content h2 {
        
-<<<<<<< HEAD
-    margin: 5rem 0 5rem 0;
-=======
+
     margin: 0 0 8rem 0;
     }
-    .about-content p {
-       
-        text-align: center;
->>>>>>> 2544188da99c4ed6df98fb89166c0f8a21e4ff43
-    }
+ 
     .about-content p {
        
         text-align: center;

@@ -141,7 +141,7 @@ span {
 
 .home-content p {
     margin: 30px 0;
-    font-size: 2.6rem;
+    font-size: 3rem;
     max-width: 570px;
     animation: SlideLeft 1s ease forwards;
     animation-delay: .7s;
@@ -827,7 +827,7 @@ flex-wrap: wrap;
         margin: 2rem 0 2rem;
     }
     .home-content p {
-        font-size: 2rem;
+        font-size: 3rem;
         line-height: 2;
         margin-bottom: -1rem;
     }
@@ -886,6 +886,13 @@ flex-wrap: wrap;
         width: 100%;
         text-align: center;
     }
+
+    .home-content p {
+        font-size: 3rem;
+        line-height: 2;
+       
+    }
+
  
     .about
     {
@@ -895,6 +902,9 @@ flex-wrap: wrap;
 
     .about-content p {
         text-align: center;
+        font-size: 2.5rem;
+       
+        line-height: 2;
     }
   
     .portfolio-container {
@@ -918,7 +928,11 @@ flex-wrap: wrap;
 
         background: var(--second-bg-color)
     }
-
+    .home-content p {
+        font-size: 3rem;
+        line-height: 2.5;
+        margin: auto;
+    }
 
     .portfolio {
         padding-top: 8rem;
@@ -954,8 +968,8 @@ flex-wrap: wrap;
             margin: 2rem 0 2rem;
         }
         .home-content p {
-            font-size: 2rem;
-            line-height: 1.5;
+            font-size: 2.5rem;
+            line-height: 2.5;
             margin: auto;
         }
         .btn {
